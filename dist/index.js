@@ -105,7 +105,7 @@ var MainModule = (function () {
                     { path: '', component: app_1.Home, pathMatch: 'full' }
                 ])
             ]
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], MainModule);
     return MainModule;
@@ -202,7 +202,7 @@ var App = (function () {
         core_1.Component({
             selector: 'app',
             template: "\n  <p>Hello Angular Universal App</p>\n  <router-outlet></router-outlet>\n  "
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], App);
     return App;
@@ -215,7 +215,7 @@ var Home = (function () {
         core_1.Component({
             selector: 'home',
             template: 'Home component'
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], Home);
     return Home;
@@ -309,7 +309,7 @@ app.use(cookieParser('Angular 2 Universal'));
 app.use(bodyParser.json());
 // Serve static files
 app.use('/assets', express.static(path.join(__dirname, 'assets'), { maxAge: 30 }));
-app.use(express.static(path.join(ROOT, 'dist/client'), { index: false }));
+app.use(express.static(path.join(ROOT, './client'), { index: false }));
 var api_1 = __webpack_require__(2);
 // Our API for demos only
 app.get('/data.json', api_1.serverApi);
