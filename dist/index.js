@@ -314,7 +314,7 @@ var api_1 = __webpack_require__(2);
 // Our API for demos only
 app.get('/data.json', api_1.serverApi);
 function ngApp(req, res) {
-    res.render('index', {
+    res.render('client/index', {
         req: req,
         res: res,
         ngModule: app_node_module_1.MainModule,
