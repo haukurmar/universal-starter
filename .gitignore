@@ -5,7 +5,7 @@
 /tsd_typings/
 npm-debug.log
 
-/dist/
+#/dist/
 
 .idea
 
