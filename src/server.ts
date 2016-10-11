@@ -48,7 +48,7 @@ function ngApp(req, res) {
     originUrl: 'http://localhost:3000'
   });
 }
-// Routes with html5pushstate
+// Routes with html5pushstate.
 // ensure routes match client-side-app
 app.get('/', ngApp);
 app.get('/about', ngApp);
