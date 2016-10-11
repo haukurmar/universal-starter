@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/angular/universal-starter.git"
   },
+	"main": "dist/server/index.js",
   "scripts": {
     "watch": "webpack --watch",
     "prebuild": "rimraf dist",
