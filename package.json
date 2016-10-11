@@ -11,7 +11,7 @@
     "watch": "webpack --watch",
     "prebuild": "rimraf dist",
     "build": "webpack",
-    "build:prod": "webpack --progress -p",
+    "build:prod": "webpack --progress",
     "prestart": "npm run build",
     "server": "node dist/server/index.js",
     "debug:server": "node-nightly --inspect --debug-brk dist/server/index.js",
