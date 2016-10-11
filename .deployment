@@ -1,0 +1,3 @@
+[config]
+command nodemon dist/server/index.js
+
