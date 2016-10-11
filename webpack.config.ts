@@ -94,7 +94,7 @@ var defaultConfig = {
   context: __dirname,
   output: {
     publicPath: path.resolve(__dirname),
-    filename: 'index.js'
+    filename: 'client.js'
   }
 };
 
