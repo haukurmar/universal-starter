@@ -13,7 +13,7 @@
     "build": "webpack",
     "build:prod": "webpack --progress",
     "prestart": "npm run build",
-    "server": "node dist/server/index.js",
+    "server": "node server/index.js",
     "debug:server": "node-nightly --inspect --debug-brk dist/server/index.js",
     "start": "npm run server",
     "debug:start": "npm run build && npm run debug:server",
